@@ -1,0 +1,7 @@
+--------
+vcsh_vim
+--------
+
+This README is part of the `vcsh_vim` repository.
+
+The files in this repository are customizations for `spf13-vim`
