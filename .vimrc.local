@@ -1,5 +1,5 @@
 set wrap
-noremap <SILENT> <C-L> :nohlsearch<CR><C-L>
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 let g:solarized_termcolors=16
 "let g:solarized_termtrans=0
 "let g:solarized_degrade=0
@@ -9,3 +9,9 @@ let g:solarized_underline=1
 let g:solarized_contrast="normal"
 let g:solarized_visibility="high"
 colorscheme solarized
+autocmd FileType coffee setlocal sw=2 ts=2 sts=2
+autocmd FileType javascript setlocal sw=2 ts=2 sts=2
+autocmd FileType html setlocal sw=2 ts=2 sts=2
+autocmd FileType htmljinja setlocal sw=2 ts=2 sts=2
+autocmd FileType jade setlocal sw=2 ts=2 sts=2
+autocmd FileType yaml setlocal sw=2 ts=2 sts=2
